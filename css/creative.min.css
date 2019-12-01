@@ -8848,13 +8848,13 @@ header.masthead {
   background-size: cover;
 }
 header.masthead h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-family: playlistscript;
 }
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
-    min-height: 40rem;
+    height: 140vh;
+    min-height: 50rem;
     padding-top: 72px;
     padding-bottom: 0;
   }
@@ -8868,8 +8868,14 @@ header.masthead h1 {
 }
 @media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 3.5rem;
-    font-family: playlistscript;
+    font-size: 6.5rem;
+    font-family: "playlistscript";
+  }
+}
+@media (max-width: 480px) {
+  header.masthead h1 {
+    font-size: 6.5rem;
+    font-family: "playlistscript";
   }
 }
 #portfolio .container-fluid {
