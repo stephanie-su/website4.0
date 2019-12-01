@@ -686,10 +686,10 @@ $cards-per-line: (
 }
 
 .card-title{
-  font-family: "playlistscript";
+  font-family: 'Nanum Gothic', sans-serif;
   letter-spacing: 0.04em; 
   color: #8b2455;
-  font-size: 250%;
+  font-size: 190%;
 }
 
 .card:hover {
