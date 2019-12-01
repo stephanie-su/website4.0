@@ -7,6 +7,7 @@
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
+
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -432,7 +433,7 @@
   --font-family-sans-serif: "Merriweather Sans", -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Noto Color Emoji", "Nanum Gothic", ;
+    "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
 }
@@ -463,7 +464,7 @@ body {
   margin: 0;
   font-family: Merriweather, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji","Nanum Gothic",;
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -550,12 +551,12 @@ sup {
   top: -0.5em;
 }
 a {
-/*   color: #f4623a; */
+  color: #f4623a;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-/*   color: #d6370c; */
+  color: #d6370c;
   text-decoration: underline;
 }
 a:not([href]):not([tabindex]) {
@@ -8781,7 +8782,7 @@ hr.light {
   color: #212529;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #fff;
+  color: #6c757d;
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -8791,15 +8792,15 @@ hr.light {
 }
 #mainNav .navbar-nav .nav-item .nav-link:active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #8b2455;
+  color: #f4623a;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #8b2455 !important;
+  color: #f4623a !important;
 }
 @media (min-width: 992px) {
   #mainNav {
     box-shadow: none;
-    background-color: #fff;
+    background-color: transparent;
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -8825,13 +8826,13 @@ hr.light {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #8b2455;
+    color: #f4623a;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #8b2455;
+    color: #f4623a;
   }
 }
 header.masthead {
