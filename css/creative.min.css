@@ -44,7 +44,7 @@
   border-color: #e9ecef #e9ecef #dee2e6;
 }
 .nav-tabs .nav-link.disabled {
-  color: #fff;
+  color: #000;
   background-color: transparent;
   border-color: transparent;
 }
