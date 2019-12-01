@@ -9600,19 +9600,19 @@ html {
 }
 
 #mainNav {
-  box-shadow: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
-  transition: background-color transparent;
+  transition: background-color 0.2s ease;
 }
 
 #mainNav .navbar-brand {
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: 700;
-  color: #8b2455;
+  color: #212529;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #8b2455;
+  color: #6c757d;
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
@@ -9620,30 +9620,30 @@ html {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f794b8;
+  color: #f4623a;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f794b8 !important;
+  color: #f4623a !important;
 }
 
 @media (min-width: 992px) {
   #mainNav {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    box-shadow: none;
     background-color: transparent;
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:hover {
-    color: #f794b8;
+    color: #fff;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #f794b8;
+    color: #fff;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
@@ -9654,22 +9654,22 @@ html {
     opacity: 0.9;
   }
   #mainNav.navbar-scrolled .navbar-brand {
-    color: #8b2455;
+    color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #f794b8;
+    color: #f4623a;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-    color: #8b2455;
+    color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #f794b8;
+    color: #f4623a;
   }
 }
 
 a {
   color: #8b2455;
-  background: transparent !important;
+  background: transparent;
 }
 
 header.masthead {
