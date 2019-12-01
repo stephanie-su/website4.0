@@ -29,7 +29,7 @@ function animateValue(id, start, end, duration) {
     }, stepTime);
 }
 
-animateValue("value", 0, 264, 5000);
+animateValue("value", 0, 264, 2000);
 
 // VALUE TWO
 function animateValue2(id, start, end, duration) {
@@ -47,7 +47,7 @@ function animateValue2(id, start, end, duration) {
     }, stepTime);
 }
 
-animateValue2("value2", 0, 61, 5000);
+animateValue2("value2", 0, 61, 2000);
 
 // VALUE THREE
 function animateValue3(id, start, end, duration) {
@@ -65,7 +65,7 @@ function animateValue3(id, start, end, duration) {
     }, stepTime);
 }
 
-animateValue3("value3", 0, 3, 5000);
+animateValue3("value3", 0, 3, 2000);
 
 var slideIndex = 0;
 showSlides();

@@ -4,8 +4,8 @@ html {
   height: 100%;
   background-repeat: none;
   z-index: 0;
-  /* background: linear-gradient(#ffedfd, #e2f5ff, #ffedfd); */
-  background: linear-gradient(#e2f5ff, #ffedfd, #e2f5ff);
+    background: linear-gradient(#ffedfd, #ffffff, #ffedfd);
+/*   background: linear-gradient(#ffedfd 0%, #e2f5ff 75%); */
   opacity: 1;
 }
 p, h1, h2, h3, h4, h5, h6 {
