@@ -4,8 +4,8 @@ html {
   height: 100%;
   background-repeat: none;
   z-index: 0;
-    background: linear-gradient(#ffedfd, #ffffff, #ffedfd);
-/*   background: linear-gradient(#ffedfd 0%, #e2f5ff 75%); */
+  /* background: linear-gradient(#ffedfd, #e2f5ff, #ffedfd); */
+  background: linear-gradient(#e2f5ff, #ffedfd, #e2f5ff);
   opacity: 1;
 }
 p, h1, h2, h3, h4, h5, h6 {
@@ -275,7 +275,9 @@ p, h1, h2, h3, h4, h5, h6 {
 .accordion {
   opacity: .6;
   border-radius: 5px;
-  background-color: rgba(255, 194, 211, 0.5);
+  background-color: white;
+  /*background-color: rgba(255, 194, 211, 0.5);*/
+  opacity: 0.5;
   color: #8b2455;
   cursor: pointer;
   padding: 18px;
