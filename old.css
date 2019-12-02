@@ -932,3 +932,7 @@ opacity: 1;
 transform: translate(0, 0); 
 }
 
+#photos {
+  background-color: transparent;
+}
+
