@@ -411,10 +411,13 @@ a {
   margin: 1%;
 }
 .teamnames {
+  font: "Nanum Gothic";
+  font-weight: normal;
   margin-top: 5%;
   color: #000000;
 }
 .teamdescriptions {
+  font: "Nanum Gothic";
   margin: 2.5%;
   color: #000000;
 }
