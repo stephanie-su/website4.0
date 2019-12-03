@@ -691,6 +691,7 @@ $cards-per-line: (
 
 .card-title {
   font: "Nanum Gothic";
+  font-weight: normal;
   letter-spacing: 0.04em; 
   color: #8b2455;
   font-size: 190%;
