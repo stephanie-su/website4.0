@@ -937,11 +937,14 @@ transform: translate(0, 0);
   padding: 2%;
 }
 
-#locatinsub {
-    letter-spacing: 2.5px;
+#locationsub {
+    letter-spacing: 0.9px;
+}
+
+#locationsub2 {
+    letter-spacing: 1.2px;
 }
 
 a:hover {
    color: #F794B8;
 }
-
