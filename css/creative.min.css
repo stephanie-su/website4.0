@@ -161,8 +161,8 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #d6370c;
-  text-decoration: underline;
+  color: #F794B8;
+/*   text-decoration: underline; */
 }
 a:not([href]):not([tabindex]) {
   color: inherit;
