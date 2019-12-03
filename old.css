@@ -941,3 +941,7 @@ transform: translate(0, 0);
     letter-spacing: 2.5px;
 }
 
+a:hover {
+   color: #F794B8;
+}
+
