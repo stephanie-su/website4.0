@@ -161,8 +161,8 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #d6370c;
-  text-decoration: underline;
+  color: #F794B8;
+/*   text-decoration: underline; */
 }
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -8796,7 +8796,7 @@ html {
 }
 @media (min-width: 992px) {
   #mainNav {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+/*     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
     background-color: transparent;
   }
   #mainNav .navbar-brand {
@@ -8818,7 +8818,7 @@ html {
   #mainNav.navbar-scrolled {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #fff;
-    opacity: 0.9;
+/*     opacity: 0.9; */
   }
   #mainNav.navbar-scrolled .navbar-brand {
     color: #8b2455;
@@ -8963,3 +8963,172 @@ header.masthead2 h1 {
     font-family: playlistscript;
   }
 }
+header.masthead3 {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2FCopy%20of%20_DSC8942.jpg?v=1575199945788");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.masthead3 h1 {
+  font-size: 2.25rem;
+  font-family: playlistscript;
+}
+@media (min-width: 992px) {
+  header.masthead3 {
+    height: 140vh;
+    min-height: 50rem;
+    padding-top: 72px;
+    padding-bottom: 0;
+  }
+  header.masthead3 p {
+    font-size: 1.15rem;
+  }
+  header.masthead3 h1 {
+    font-size: 3rem;
+    font-family: playlistscript;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead3 h1 {
+    font-size: 6.5rem;
+    font-family: "playlistscript";
+  }
+}
+@media (max-width: 480px) {
+  header.masthead3 h1 {
+    font-size: 6.5rem;
+    font-family: "playlistscript";
+  }
+}
+
+header.masthead4 {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2FSuperposition-7.jpg?v=1575199924853");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.masthead4 h1 {
+  font-size: 2.25rem;
+  font-family: playlistscript;
+}
+@media (min-width: 992px) {
+  header.masthead4 {
+    height: 140vh;
+    min-height: 50rem;
+    padding-top: 72px;
+    padding-bottom: 0;
+  }
+  header.masthead4 p {
+    font-size: 1.15rem;
+  }
+  header.masthead4 h1 {
+    font-size: 3rem;
+    font-family: playlistscript;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead4 h1 {
+    font-size: 6.5rem;
+    font-family: "playlistscript";
+  }
+}
+@media (max-width: 480px) {
+  header.masthead4 h1 {
+    font-size: 6.5rem;
+    font-family: "playlistscript";
+  }
+}
+
+
+header.masthead5 {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2Fsuperpos1-2%20(1).JPG?v=1575199924853");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.masthead5 h1 {
+  font-size: 2.25rem;
+  font-family: playlistscript;
+}
+@media (min-width: 992px) {
+  header.masthead5 {
+    height: 140vh;
+    min-height: 50rem;
+    padding-top: 72px;
+    padding-bottom: 0;
+  }
+  header.masthead5 p {
+    font-size: 1.15rem;
+  }
+  header.masthead5 h1 {
+    font-size: 3rem;
+    font-family: playlistscript;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead5 h1 {
+    font-size: 6.5rem;
+    font-family: "playlistscript";
+  }
+}
+@media (max-width: 480px) {
+  header.masthead5 h1 {
+    font-size: 6.5rem;
+    font-family: "playlistscript";
+  }
+}
+
+header.masthead6 {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2FCopy%20of%20_DSC9177.jpg?v=1575203710103");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.masthead6 h1 {
+  font-size: 2.25rem;
+  font-family: playlistscript;
+}
+@media (min-width: 992px) {
+  header.masthead6 {
+    height: 140vh;
+    min-height: 50rem;
+    padding-top: 72px;
+    padding-bottom: 0;
+  }
+  header.masthead6 p {
+    font-size: 1.15rem;
+  }
+  header.masthead6 h1 {
+    font-size: 3rem;
+    font-family: playlistscript;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead6 h1 {
+    font-size: 6.5rem;
+    font-family: "playlistscript";
+  }
+}
+@media (max-width: 480px) {
+  header.masthead6 h1 {
+    font-size: 6.5rem;
+    font-family: "playlistscript";
+  }
+}
+

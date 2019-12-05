@@ -29,7 +29,7 @@ function animateValue(id, start, end, duration) {
     }, stepTime);
 }
 
-animateValue("value", 0, 264, 2000);
+animateValue("value", 0, 264, 6000);
 
 // VALUE TWO
 function animateValue2(id, start, end, duration) {
@@ -47,7 +47,7 @@ function animateValue2(id, start, end, duration) {
     }, stepTime);
 }
 
-animateValue2("value2", 0, 61, 2000);
+animateValue2("value2", 0, 61, 6000);
 
 // VALUE THREE
 function animateValue3(id, start, end, duration) {
@@ -65,7 +65,7 @@ function animateValue3(id, start, end, duration) {
     }, stepTime);
 }
 
-animateValue3("value3", 0, 3, 2000);
+animateValue3("value3", 0, 3, 6000);
 
 var slideIndex = 0;
 showSlides();
@@ -92,3 +92,19 @@ function showSlides() {
     }
 
   }, false);
+
+$(document).on("scroll", function () {
+var pageTop = $(document).scrollTop()
+var pageBottom = pageTop + $(window).height()
+var tags = $("section")
+
+for (var i = 0; i < tags.length; i++) {
+var tag = tags[i]
+
+if ($(tag).position().top < pageBottom) {
+$(tag).addClass("visible")
+} else {
+  $(tag).removeClass("visible")
+}
+}
+})
