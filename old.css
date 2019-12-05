@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body,
 html {
   font-family: 'Nanum Gothic', sans-serif;
@@ -272,8 +277,59 @@ p, h1, h2, h3, h4, h5, h6 {
 .faqstext {
   padding: 1%;
 }
+
 .accordion {
-  opacity: .6;
+   opacity: .6;
+  border-radius: 7px;
+  background-color: rgba(255, 194, 211, 0.5);
+  color: #8b2455;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 130%;
+  transition: 0.4s;
+}
+
+
+.accordion:hover {
+  background-color: #ffc3d4;
+}
+
+button:hover{
+  background-color: #ff6bb1;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #8b2455;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+    margin: 1%;
+  margin-left: 2.5%;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+
+
+
+
+/* .accordion {
+/*   opacity: .6;
   border-radius: 5px;
   background-color: rgba(255, 194, 211, 0.5);
   color: #8b2455;
@@ -283,19 +339,17 @@ p, h1, h2, h3, h4, h5, h6 {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 130%;
-  transition: 0.4s;
+  font-size: 130%; */
+/*   transition: 0.4s; */
 }
-
-.active,
-.accordion:hover {
+#hoveryo:hover {
   background-color: #ffc3d4;
-}
+} 
 
-.accordion:after {
-  content: "\002B";
+/* .accordion:after {
+  content: "\002B"; */
 /*   color: #000000; */
-  position: relative;
+/*   position: relative;
     width: 1.5em;
     height: 1.5em;
     background-color: var(--accent-bright);
@@ -303,10 +357,10 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: 10px;
   font-weight: bold;
   float: right;
-  margin-left: 5px;
-}
+  margin-left: 5px; */
+} */
 
-.active:after {
+/* .active:after {
   content: "\2212";
 }
 
@@ -319,7 +373,7 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   width: 95%;
-}
+} */ */
 
 /* FOOTER */
 footer {
@@ -414,7 +468,8 @@ a {
   font: "Nanum Gothic";
   font-weight: normal;
   margin-top: 5%;
-  color: #000000;
+  color: #000;
+  
 }
 .teamdescriptions {
   font: "Nanum Gothic";
@@ -502,10 +557,15 @@ a {
   padding: 1%;
   font-weight: normal;
 }
-.sponsorsimages {
-  height: 50%;
-  width: 90%;
+.sponsorsimages { 
+  max-width: 75% !important;
+    width: 75% !important;
+    height: auto !important;
+    padding-bottom: 6vw;
+/*  height: 80%;
+  width: 80%;  */
   transition: 0.3s;
+  padding-bottom: 5vw;
   /* -webkit-box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.15); */
   -moz-box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.15);
   /* box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.15); */
@@ -515,8 +575,10 @@ a {
   transform: scale(1.1);
 }
 .sponsors {
-  margin: 2%;
-  padding: 1%;
+      padding: 2vw;
+    vertical-align: middle;
+/*   margin: 2%;
+  padding: 1%; */
 }
 
 .expectitles2 {
@@ -882,6 +944,7 @@ button:hover{
 }
 
 
+
 .column50 {
   float: left;
   width: 33.33%;
@@ -950,6 +1013,11 @@ transform: translate(0, 0);
     letter-spacing: 1.2px;
 }
 
+#locationsub3 {
+    letter-spacing: 1.2px;
+    align: left;
+}
+
 a:hover {
    color: #F794B8;
 }
@@ -967,4 +1035,11 @@ a:hover {
 }
 footer {
     opacity: 0.9;
+}
+
+.scrollable-element {
+  scrollbar-color: red yellow;
+}
+.emphasis{
+  color: #8b2455;
 }
