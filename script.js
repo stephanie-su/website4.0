@@ -29,7 +29,7 @@ function animateValue(id, start, end, duration) {
     }, stepTime);
 }
 
-animateValue("value", 0, 264, 4000);
+animateValue("value", 0, 264, 6000);
 
 // VALUE TWO
 function animateValue2(id, start, end, duration) {
@@ -47,7 +47,7 @@ function animateValue2(id, start, end, duration) {
     }, stepTime);
 }
 
-animateValue2("value2", 0, 61, 4000);
+animateValue2("value2", 0, 61, 6000);
 
 // VALUE THREE
 function animateValue3(id, start, end, duration) {
@@ -65,74 +65,7 @@ function animateValue3(id, start, end, duration) {
     }, stepTime);
 }
 
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}
-
-// VALUE ONE
-function animateValue(id, start, end, duration) {
-    var range = end - start;
-    var current = start;
-    var increment = end > start? 1 : -1;
-    var stepTime = Math.abs(Math.floor(duration / range));
-    var obj = document.getElementById(id);
-    var timer = setInterval(function() {
-        current += increment;
-        obj.innerHTML = current;
-        if (current == end) {
-            clearInterval(timer);
-        }
-    }, stepTime);
-}
-
-animateValue("value", 0, 264, 4000);
-
-// VALUE TWO
-function animateValue2(id, start, end, duration) {
-    var range = end - start;
-    var current = start;
-    var increment = end > start? 1 : -1;
-    var stepTime = Math.abs(Math.floor(duration / range));
-    var obj = document.getElementById(id);
-    var timer = setInterval(function() {
-        current += increment;
-        obj.innerHTML = current;
-        if (current == end) {
-            clearInterval(timer);
-        }
-    }, stepTime);
-}
-
-animateValue2("value2", 0, 61, 4000);
-
-// VALUE THREE
-function animateValue3(id, start, end, duration) {
-    var range = end - start;
-    var current = start;
-    var increment = end > start? 1 : -1;
-    var stepTime = Math.abs(Math.floor(duration / range));
-    var obj = document.getElementById(id);
-    var timer = setInterval(function() {
-        current += increment;
-        obj.innerHTML = current;
-        if (current == end) {
-            clearInterval(timer);
-        }
-    }, stepTime);
-}
-
-animateValue3("value3", 0, 3, 4000);
+animateValue3("value3", 0, 3, 6000);
 
 var slideIndex = 0;
 showSlides();
