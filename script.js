@@ -65,7 +65,7 @@ function animateValue3(id, start, end, duration) {
     }, stepTime);
 }
 
-animateValue3("value3", 0, 3, 6000);
+animateValue3("value3", 0, 3, 20000);
 
 var slideIndex = 0;
 showSlides();
