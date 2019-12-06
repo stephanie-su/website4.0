@@ -29,7 +29,7 @@ function animateValue(id, start, end, duration) {
     }, stepTime);
 }
 
-animateValue("value", 0, 264, 4000);
+animateValue("value", 0, 264, 8000);
 
 // VALUE TWO
 function animateValue2(id, start, end, duration) {
@@ -65,7 +65,7 @@ function animateValue3(id, start, end, duration) {
     }, stepTime);
 }
 
-animateValue3("value3", 0, 3, 20000);
+animateValue3("value3", 0, 3, 8000);
 
 var slideIndex = 0;
 showSlides();
