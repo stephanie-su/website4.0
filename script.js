@@ -29,7 +29,7 @@ function animateValue(id, start, end, duration) {
     }, stepTime);
 }
 
-animateValue("value", 0, 264, 6000);
+animateValue("value", 0, 264, 4000);
 
 // VALUE TWO
 function animateValue2(id, start, end, duration) {
