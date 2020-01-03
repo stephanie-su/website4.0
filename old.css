@@ -12,7 +12,8 @@ html {
   height: 100%;
   background-repeat: none;
   z-index: 0;
-    background: linear-gradient(#ffedfd, #ffffff, #ffedfd);
+/*   background: #F5F5F5; */
+   background: linear-gradient(#ffedfd, #ffffff, #ffedfd); 
 /*   background: linear-gradient(#ffedfd 0%, #e2f5ff 75%); */
   opacity: 1;
 }
@@ -292,7 +293,7 @@ p, h1, h2, h3, h4, h5, h6 {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 130%;
+  font-size: 140%;
   transition: 0.4s;
 }
 
@@ -503,15 +504,26 @@ a {
 }
 
 .schedtitles {
-  margin: 1%;
+  margin: 2%;
   margin-bottom: 3%;
   color: #8b2455;
-  font-size: 200%;
+  font-size: 450%;
+  font-weight: light;
+  font-family: "playlistscript";
+}
+.schedtitles: hover{
+    font-weight: normal;
 }
 
 .scheddescriptions {
-  margin: 1%;
-  font-size: 150%;
+  margin: 3%;
+  font-size: 170%;
+  display-inline:block;
+  font-weight:normal;
+}
+.scheddescriptions:hover{
+  font-weight: bold;
+  color: #8b2455;
 }
 
 /* WHAT TO EXPECT */
@@ -587,8 +599,13 @@ a {
 .expectitles2 {
   margin-top: 7.5%;
   font-size: 350%;
+ font-weight: 600;
+    font: "Nanum Gothic";
+
 }
 .expectsubtitles2 {
+    font: "Nanum Gothic";
+
 }
 
 #allgirls {
@@ -717,6 +734,7 @@ a {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  padding: 1%;
 }
 
 .testimonialtext {
@@ -914,6 +932,7 @@ transition: 0.3s;
     left: 0;
     width: 100%;
     height: 100%;
+  margin: 0%;
 }
 
 #about {
@@ -1010,10 +1029,12 @@ transform: translate(0, 0);
 
 #locationsub {
     letter-spacing: 0.9px;
+   font-size: 180%;
 }
 
 #locationsub2 {
     letter-spacing: 1.2px;
+  font-size: 180%;
 }
 
 #locationsub3 {
@@ -1047,6 +1068,13 @@ footer {
 .emphasis{
   color: #8b2455;
 }
+
+
+th, td {
+  padding: 15px;
+}
+
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -1228,4 +1256,83 @@ footer {
   font: "Nanum Gothic";
   font-weight: normal;
   font-size: 120%;
+}
+
+
+.rowsched {
+  display: flex;
+}
+
+.columnsched {
+  flex: 50%;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnsched {
+    width: 100%;
+  }
+}
+
+th {
+  text-align: left;
+}
+
+
+
+.rowvid {
+  display: flex;
+  background-color: rgba(255, 194, 211, 0.5);
+  opacity: 1;
+  height: 610px;
+}
+}
+
+.columnvid {
+  flex: 50%;
+}
+
+#videotext {
+/*   padding: 1.5%; */
+  margin: 7%;
+}
+
+.rowsun {
+  display: flex;
+}
+
+.columnsun {
+  flex: 50%;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnvid {
+    width: 100%;
+  }
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnsun {
+    width: 100%;
+  }
+}
+
+.sat {
+  margin: 7%;
+}
+
+#schedimg{
+  margin-top: -10%;
+  width: 100%;
+  height: auto%;
+}
+
+#aboutpading{
+  border: transparent;
+  padding: 3%;
+}
+
+#background {
+    background-color: rgba(255, 194, 211, 0.5);
 }
