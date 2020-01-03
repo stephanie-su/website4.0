@@ -306,7 +306,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 button:hover{
-  background-color: #ff6bb1;
+  background-color: #f473a2;
 }
 
 .accordion:after {
@@ -569,6 +569,7 @@ a {
   transform: scale(1.05);
 }
 .sponsorssubtitle {
+  font-family: "Nanum Gothic";
   font-size: 150%;
   margin-top: 2%;
   margin-bottom: 1%;
