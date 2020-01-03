@@ -12,10 +12,12 @@ html {
   height: 100%;
   background-repeat: none;
   z-index: 0;
-/*   background: #F5F5F5; */
-   background: linear-gradient(#ffedfd, #ffffff, #ffedfd); 
-/*   background: linear-gradient(#ffedfd 0%, #e2f5ff 75%); */
+/*   background: #F5F5F5;
+   background: linear-gradient(#ffedfd, #ffffff, #ffedfd); */
+  background: linear-gradient(#ffedfd 0%, #e2f5ff 75%);
   opacity: 1;
+	
+  background-size: cover;
 }
 p, h1, h2, h3, h4, h5, h6 {
   font-family: 'Nanum Gothic', sans-serif;
