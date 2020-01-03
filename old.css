@@ -13,8 +13,9 @@ html {
   background-repeat: none;
   z-index: 0;
 /*   background: #F5F5F5;
-   background: linear-gradient(#ffedfd, #ffffff, #ffedfd); */
-  background: linear-gradient(#ffedfd 0%, #e2f5ff 75%, #ffedfd);
+   background: linear-gradient(#ffedfd, #ffffff, #ffedfd);
+  background: linear-gradient(#ffedfd 0%, #e2f5ff 75%, #ffedfd);  */
+  background: linear-gradient(#ffebf2, #fff5f8, #ffebf2);
   opacity: 1;
 	
   background-size: cover;
@@ -471,8 +472,8 @@ a {
   margin: 1%;
 }
 .teamnames {
-  font: "Nanum Gothic";
-  font-weight: normal;
+  font-family: "Nanum Gothic";
+  font-weight: bold;
   margin-top: 5%;
   color: #000;
   
@@ -1030,13 +1031,15 @@ transform: translate(0, 0);
 }
 
 #locationsub {
-    letter-spacing: 0.9px;
-   font-size: 150%;
+	letter-spacing: 0.9px;
+	font-size: 150%;
+	font-family: "Nanum Gothic";
 }
 
 #locationsub2 {
     letter-spacing: 1.2px;
   font-size: 180%;
+ font-family: "Nanum Gothic";
 }
 
 #locationsub3 {
