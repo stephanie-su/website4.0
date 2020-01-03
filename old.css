@@ -14,7 +14,7 @@ html {
   z-index: 0;
 /*   background: #F5F5F5;
    background: linear-gradient(#ffedfd, #ffffff, #ffedfd); */
-  background: linear-gradient(#ffedfd 0%, #e2f5ff 75%);
+  background: linear-gradient(#ffedfd 0%, #e2f5ff 75%, #ffedfd);
   opacity: 1;
 	
   background-size: cover;
@@ -1031,12 +1031,12 @@ transform: translate(0, 0);
 
 #locationsub {
     letter-spacing: 0.9px;
-   font-size: 100%;
+   font-size: 150%;
 }
 
 #locationsub2 {
     letter-spacing: 1.2px;
-  font-size: 100%;
+  font-size: 180%;
 }
 
 #locationsub3 {
