@@ -1029,12 +1029,12 @@ transform: translate(0, 0);
 
 #locationsub {
     letter-spacing: 0.9px;
-   font-size: 180%;
+   font-size: 100%;
 }
 
 #locationsub2 {
     letter-spacing: 1.2px;
-  /*font-size: 180%;*/
+  font-size: 100%;
 }
 
 #locationsub3 {
