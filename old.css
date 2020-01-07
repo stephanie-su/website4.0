@@ -1038,14 +1038,15 @@ transform: translate(0, 0);
 }
 
 #locationsub2 {
-    letter-spacing: 1.2px;
-  font-size: 180%;
+ letter-spacing: 1.2px;
+ font-size: 180%;
  font-family: "Nanum Gothic";
 }
 
 #locationsub3 {
-    letter-spacing: 1.2px;
-    align: left;
+ letter-spacing: 1.2px;
+ font-size: 160%;
+ font-family: "Nanum Gothic";
 }
 
 a:hover {
