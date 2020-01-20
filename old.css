@@ -330,7 +330,123 @@ button:hover{
   transition: max-height 0.2s ease-out;
 }
 
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
 
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+}
+
+.animatedFadeInUp {
+  opacity: 0;
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+
+
+
+#slider {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+/*   text-align: center; */
+  overflow: hidden;
+}
+
+input {
+  position: absolute;  
+  opacity: 0;
+  margin-top: 95vh;
+  cursor: pointer;
+}
+
+label {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: solid 2px white;
+  border-radius: 999px;
+  background-color: transparent;
+  margin: 95vh 6px 0 6px;
+  z-index: 1;
+  cursor: pointer;
+  transition-duration: .4s;
+}
+
+input:checked + label{
+  background-color: white;
+}
+
+input:focus + label{
+/*   box-shadow: 0 0 0 2px teal, 0 0 18px white; */
+}
+
+.slide {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: translateX(-100%);
+  transition-duration: .4s;
+  opacity: 1;
+}
+
+input:checked ~ .slide {
+  transform: translateX(100%);
+}
+
+input:checked + label + .slide {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.bg1{
+  background-image: url("https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2Fsuperpos2-203.JPG?v=1574057772275");
+}
+.bg2{
+    background-image: url("https://cdn.glitch.com/ca1dae3b-1ed2-4505-b2ff-5b9d1cf0186d%2FCopy%20of%20_DSC8922%20(1).jpg?v=1578214005391");
+}
+.bg3{
+      background-image: url("https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2Fsuperpos2-59%20(1).JPG?v=1574057773960");
+}
+.bg4{
+      background-image: url("https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2FCopy%20of%20_DSC8971.jpg?v=1574058317996");
+}
+.bg5{
+      background-image: url("https://cdn.glitch.com/ca1dae3b-1ed2-4505-b2ff-5b9d1cf0186d%2FCopy%20of%20_DSC9188%20(1).jpg?v=1578214012345");
+}
 
 
 
