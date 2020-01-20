@@ -397,7 +397,7 @@ label {
   margin: 95vh 6px 0 6px;
   z-index: 1;
   cursor: pointer;
-  transition-duration: .4s;
+  transition-duration: 0.2s;
 }
 
 input:checked + label{
@@ -419,7 +419,7 @@ input:focus + label{
   left: 0;
   z-index: -1;
   transform: translateX(-100%);
-  transition-duration: .4s;
+  transition-duration: 0.25s;
   opacity: 1;
 }
 
@@ -447,7 +447,6 @@ input:checked + label + .slide {
 .bg5{
       background-image: url("https://cdn.glitch.com/ca1dae3b-1ed2-4505-b2ff-5b9d1cf0186d%2FCopy%20of%20_DSC9188%20(1).jpg?v=1578214012345");
 }
-
 
 
 
