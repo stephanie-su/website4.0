@@ -42,11 +42,6 @@
   </head>
 
   <body id="page-top">
-    <body onload="myFunction1000()" id="page-top">
-
-    <div id="loader">   <center><img src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FYO.png?v=1578731939570" class="rotate" width="150" height="150" /></center> </div>
-
-  <div class = "animate-bottom" id = "everything" style="display:none; ">
     <a name="top"></a>
     <nav
       class="navbar navbar-expand-lg navbar-light fixed-top py-3"
@@ -97,7 +92,7 @@
     </nav>
 
      <!-- Masthead -->
-    <header class="masthead" id = "headerwork">
+    <header class="masthead">
       <div class="container h-100">
         <div
           class="row h-100 align-items-center justify-content-center text-center"
@@ -592,89 +587,35 @@
     </center>
     
     <!-- SCHEDULE -->
-    <center>
-      <section id = "schedule">
-      <section id="aboutpadding">
-         <br />
-        <br />
-        <br />
-        <br/>
-        <span class="left" onclick="myFunctionSat()">◀</span
-                    ><span class="schedtitles" onclick="myFunction()" id="e0"
-                      >Saturday Schedule</span
-                    ><span class="right" onclick="myFunctionSunday()">▶</span>
-         <br />
-        <br />
-        <br />
-        <br/>
-        <div class="w3-row ">
-          <div class="w3-container w3-half w3">
-            <div class="sat">
-                   <p
-                      class="scheddescriptions"
-                      align="left"
-                      onclick="myFunction1()"
-                      id="e1"
-                    >
-                      10:00 AM Attendee Check-In
-                    </p>
-                    <p
-                      class="scheddescriptions"
-                      align="left"
-                      onclick="myFunction2()"
-                      id="e2"
-                    >
-                      10:45 AM Opening Ceremony
-                    </p>
-                    <p
-                      class="scheddescriptions"
-                      align="left"
-                      onclick="myFunction3()"
-                      id="e3"
-                    >
-                      11:15 AM Team forming
-                    </p>
-                    <p
-                      class="scheddescriptions"
-                      align="left"
-                      onclick="myFunction4()"
-                      id="e4"
-                    >
-                      12:00 PM Attendee Lunch
-                    </p>
-                   <p
-                      class="scheddescriptions"
-                      align="left"
-                      onclick="myFunction6()"
-                      id="e5"
-                    >
-                      12:30 PM - 7:00 PM Workshops
-                    </p>
-                    <p
-                      class="scheddescriptions"
-                      align="left"
-                      onclick="myFunction7()"
-                      id="e6"
-                    >
-                      07:15 PM Attendee Dinner
-                    </p>
-              <p
-                      class="scheddescriptions"
-                      align="left"
-                      onclick="myFunction8()"
-                      id="e7"
-                    >
-                      07:30 Women In Tech Panel
-                    </p>
-                  </div>
-          </div>
-          <div class="w3-container w3-half">
-             <img
-                    src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_3_5652959377.png?v=1579563403899"
-                    id="schedimg"
-                  />
-          </div>
+    <section><center><p class="sectionheader" id="schedule">Schedule</p></center>
+    <br />
+    <div class="schedule">
+      <div class="row3">
+        <div class="column3">
+          <h2 class="schedtitles">Saturday</h2>
+          <p class="scheddescriptions"><b>10:00 AM </b> Check In</p>
+          <p class="scheddescriptions"><b>10:45 AM </b> Opening Ceremony</p>
+          <p class="scheddescriptions"><b>11:15 AM </b> Form Teams</p>
+          <p class="scheddescriptions">
+            <b>12:00 PM </b> Lunch + hacking begins!
+          </p>
+<!--           <p class="scheddescriptions"><b>5:00 PM </b> Python Workshop</p> -->
+          <p class="scheddescriptions"><b>7:00 PM </b> Dinner + Women in Tech Panel </p>
+<!--           <p class="scheddescriptions"><b>10:00 PM </b> Karaoke</p> -->
         </div>
+        <div class="column3">
+          <h2 class="schedtitles">Sunday</h2>
+          <p class="scheddescriptions">
+            <b>12:00 AM </b> Midnight activities and snacks!
+          </p>
+<!--           <p class="scheddescriptions"><b>8:00 AM </b> Morning</p> -->
+          <p class="scheddescriptions"><b>8:30 AM </b> Attendee Breakfast</p>
+          <p class="scheddescriptions"><b>9:00 AM </b> Submissions Due</p>
+          <p class="scheddescriptions"><b>9:30 AM </b> Judging Begins</p>
+          <p class="scheddescriptions"><b>11:00 AM </b> Closing Ceremony</p>
+          <p class="scheddescriptions">
+            <b>11:30 AM </b> Superposition IV Ends
+          </p>
         </div>
       </div>
     </div>
@@ -699,7 +640,6 @@
             <p align="center" class="sectionheader" id="about">
             Recap
           </p>
-
           <p align="left" class="sectiontext" id="videotext">
             Since our very first iteration in 2017, Superposition has strived to
             provide a
@@ -1142,7 +1082,7 @@
                     class="sponsorsimages"
                     height="175vw"
                     width="175vw"
-                   src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FRStudio.png?v=1579580771370"
+                    src="https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2Fvoiceflowlogo.png?v=1574054110203"
                   />
                 </div>
                 <div class="column2">
@@ -1293,12 +1233,12 @@
                 src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fgmg.png?v=1577955142271"
               />
             </div>
-            <div class="column2">
+<!--             <div class="column2">
               <img
                 class="sponsorsimages"
-                 src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FSketch.png?v=1579580766962"
+                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fsp3.png?v=1571182887318"
               />
-            </div>
+            </div> -->
           </div>
         </center> 
           </div>
