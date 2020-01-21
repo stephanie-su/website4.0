@@ -195,83 +195,113 @@ window.onclick = function(event) {
 
 function myFunction() {
   document.getElementById("schedimg").src =
-    "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_4_5581512740.png?v=1577176109887";
+    "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FCopy%20of%20_DSC9065.jpg?v=1578213090179";
 }
 function myFunction1() {
-  if (
-    document.getElementById("e1").innerHTML == "08:30 AM Attendee Breakfast"
-  ) {
+  if (document.getElementById("e1").innerHTML == "12:00 AM Midnight Bonding") {
     document.getElementById("schedimg").src =
-      "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_20_9611234472.png?v=1577179500595";
+      "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_17_4294166174.png?v=1579564502918";
+  } else {
+    document.getElementById("schedimg").src =
+      "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_3_5652959377.png?v=1579563403899";
   }
-  document.getElementById("schedimg").src =
-    "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_6_8116093764.png?v=1577177005555";
 }
 function myFunction2() {
-  document.getElementById("schedimg").src =
-    "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_8_3772408452.png?v=1577177753694";
-  if (document.getElementById("e2").innerHTML == "09:00 Submissions Due") {
+  if (
+    document.getElementById("e2").innerHTML ==
+    "08:00 AM Breakfast / Devpost Submissions"
+  ) {
     document.getElementById("schedimg").src =
-      "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_22_8522754641.png?v=1577179905833";
+      "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_19_3385343935.png?v=1579568184577";
+  } else {
+    document.getElementById("schedimg").src =
+      "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_5_6965609634.png?v=1579563529085";
   }
 }
 function myFunction3() {
-  document.getElementById("schedimg").src =
-    "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_10_5525913779.png?v=1577177758520";
-  if (document.getElementById("e3").innerHTML == "09:30 Judging Closes") {
+  if (
+    document.getElementById("e3").innerHTML == "8:30 AM Judging Begins & Demos"
+  ) {
     document.getElementById("schedimg").src =
-      "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_24_8691477230.png?v=1577179888122";
+      "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_22_7682136208.png?v=1579568190581";
+  } else {
+    document.getElementById("schedimg").src =
+      "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_7_6910449613.png?v=1579563899065";
   }
 }
 function myFunction4() {
-  document.getElementById("schedimg").src =
-    "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_12_8716784710.png?v=1577177777542";
-  if (document.getElementById("e4").innerHTML == "11:00 Closing Ceremony") {
+  if (document.getElementById("e4").innerHTML == "11:30 AM Closing Ceremony") {
     document.getElementById("schedimg").src =
-      "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_26_4501441982.png?v=1577179878189";
+      "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_24_2170560112.png?v=1579568195116";
+  } else {
+    document.getElementById("schedimg").src =
+      "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_9_6018396106.png?v=1579564026624";
   }
 }
 function myFunction5() {
-  document.getElementById("schedimg").src =
-    "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_14_7939905670.png?v=1577177783437";
-  if (document.getElementById("e5").innerHTML == "11:30 Superposition Ends") {
+  if (document.getElementById("e5").innerHTML == "12:00 PM Hackathon Ends") {
     document.getElementById("schedimg").src =
-      "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_28_6793321588.png?v=1577179872540";
+      "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_26_5944282595.png?v=1579568201763";
+  } else {
+    document.getElementById("schedimg").src =
+      "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_11_7961851277.png?v=1579564488160";
   }
-}
-function myFunction7() {
-  document.getElementById("schedimg").src =
-    "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_16_5726766533.png?v=1577177789906";
 }
 function myFunction6() {
   document.getElementById("schedimg").src =
-    "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_14_7939905670.png?v=1577177783437";
-  if (document.getElementById("e5").innerHTML == "11:30 Superposition Ends") {
-    document.getElementById("schedimg").src =
-      "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_28_6793321588.png?v=1577179872540";
-  }
+    "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_11_7961851277.png?v=1579564488160";
+}
+function myFunction7() {
+  document.getElementById("schedimg").src =
+    "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_13_4944759940.png?v=1579564493692";
+}
+function myFunction8() {
+  document.getElementById("schedimg").src =
+    "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_15_8919423352.png?v=1579564497962";
+}
+function myFunction9() {
+  document.getElementById("schedimg").src =
+    "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_17_4294166174.png?v=1579564502918";
 }
 
 function myFunctionSat() {
+  document.getElementById("e6").style.display = "block";
+  document.getElementById("e7").style.display = "block";
+
   document.getElementById("schedimg").src =
-    "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_4_5581512740.png?v=1577176109887";
+    "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_3_5652959377.png?v=1579563403899";
   document.getElementById("e0").innerHTML = "Saturday Schedule";
-  document.getElementById("e1").innerHTML = "10:00 AM Check In";
+  document.getElementById("e1").innerHTML = "10:00 AM Attendee Check-In";
   document.getElementById("e2").innerHTML = "10:45 AM Opening Ceremony";
-  document.getElementById("e3").innerHTML = "11:15 AM Form Teams";
-  document.getElementById("e4").innerHTML = "12:00 PM Lunch; hacking begins!";
-  document.getElementById("e5").innerHTML = "06:00 PM Dinner";
-  document.getElementById("e6").innerHTML = "08:00 PM Women In Tech Panel";
+  document.getElementById("e3").innerHTML = "11:15 AM Team forming";
+  document.getElementById("e4").innerHTML = "12:00 PM Attendee Lunch";
+  document.getElementById("e5").innerHTML = "12:30 PM - 7:00 PM Workshops";
+  document.getElementById("e6").innerHTML = "07:15 PM Attendee Dinner";
+  document.getElementById("e7").innerHTML = "07:30 PM Women In Tech Panel";
 }
 
 function myFunctionSunday() {
   document.getElementById("schedimg").src =
-    "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_18_7315619255.png?v=1577178187756";
+    "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_17_4294166174.png?v=1579564502918";
   document.getElementById("e0").innerHTML = "Sunday Schedule";
-  document.getElementById("e1").innerHTML = "08:30 AM Attendee Breakfast";
-  document.getElementById("e2").innerHTML = "09:00 Submissions Due";
-  document.getElementById("e3").innerHTML = "09:30 Judging Closes";
-  document.getElementById("e4").innerHTML = "11:00 Closing Ceremony";
-  document.getElementById("e5").innerHTML = "11:30 Superposition Ends";
-  document.getElementById("e6").innerHTML = "";
+  document.getElementById("e1").innerHTML = "12:00 AM Midnight Bonding";
+  document.getElementById("e2").innerHTML =
+    "08:00 AM Breakfast / Devpost Submissions";
+  document.getElementById("e3").innerHTML = "8:30 AM Judging Begins & Demos";
+  document.getElementById("e4").innerHTML = "11:30 AM Closing Ceremony";
+  document.getElementById("e5").innerHTML = "12:00 PM Hackathon Ends";
+  document.getElementById("e6").style.display = "none";
+  document.getElementById("e7").style.display = "none";
+
+}
+
+var myVar;
+function myFunction1000() {
+  myVar = setTimeout(showPage, 1000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("everything").style.display = "block";
+  document.getElementById("headerwork").style.height = "100vh";
 }
