@@ -14,7 +14,7 @@ html {
   background-repeat: none;
   z-index: 0;
 /*   background: #F5F5F5; */
-   background: linear-gradient(#ffedfd, #ffffff, #ffedfd); 
+   background: linear-gradient(#ffebf2, #fff5f8, #ffebf2);
 /*   background: linear-gradient(#ffedfd 0%, #e2f5ff 75%); */
   opacity: 1;
 }
@@ -53,7 +53,7 @@ p, h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-style: normal;
   font-color: #8b2455;
-}
+
 
 /* START EVERY WEBSITE WITH THIS */
 * {
@@ -227,7 +227,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* BUTTONS */
 .button {
-  background-color: #f794b8;
+  background-color: #f473a2;
   border: none;
   color: black;
   padding: 17px 50px;
@@ -470,8 +470,8 @@ a {
   margin: 1%;
 }
 .teamnames {
-  font: "Nanum Gothic";
-  font-weight: normal;
+  font-family: "Nanum Gothic";
+  font-weight: bold;
   margin-top: 5%;
   color: #000;
   
@@ -568,6 +568,7 @@ a {
   transform: scale(1.05);
 }
 .sponsorssubtitle {
+  font-family: 'Nanum Gothic';
   font-size: 150%;
   margin-top: 2%;
   margin-bottom: 1%;
@@ -1032,16 +1033,19 @@ transform: translate(0, 0);
 }
 
 #locationsub {
+  font-family: 'Nanum Gothic';
     letter-spacing: 0.9px;
    font-size: 180%;
 }
 
 #locationsub2 {
+	font-family: 'Nanum Gothic';
     letter-spacing: 1.2px;
   font-size: 180%;
 }
 
 #locationsub3 {
+	font-family: 'Nanum Gothic';
     letter-spacing: 1.2px;
     align: left;
 }
