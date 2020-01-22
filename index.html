@@ -38,10 +38,19 @@
       href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
       rel="stylesheet"
     />
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
   </head>
 
-  <body id="page-top">
+  <body onload="myFunction1000()" id="page-top">
+    
+    <div id="loader">   <center><img src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FYO.png?v=1578731939570" class="rotate" width="150" height="150" /></center> </div>
+
+
+    
+  <div class = "animate-bottom" id = "everything" style="display:none; ">
     <a name="top"></a>
     <nav
       class="navbar navbar-expand-lg navbar-light fixed-top py-3"
@@ -84,15 +93,19 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="photos.html">PHOTOS</a>
+              <a
+                class="nav-link js-scroll-trigger"
+                href="https://shivaligulati.github.io/superpositioniv/photos.html"
+                >PHOTOS</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-     <!-- Masthead -->
-    <header class="masthead">
+    <!-- Masthead -->
+    <header class="masthead" id = "headerwork">
       <div class="container h-100">
         <div
           class="row h-100 align-items-center justify-content-center text-center"
@@ -108,31 +121,25 @@
             </h3>
             <button
               class="button"
-              onclick="location.href='https://bit.ly/sp4_app'"
+              onclick="location.href='https://forms.gle/MAYYZEFoaMC2BaVS8'"
             >
               ATTENDEE
             </button>
             <button
               class="button"
-              onclick="location.href='https://bit.ly/sp4_volunteer'"
+              onclick="https://forms.gle/YwRCw3crsU3DbpCE6'"
             >
               MENTOR/JUDGE
             </button>
             <button
               class="button"
-              onclick="location.href='https://bit.ly/sp4_partner'"
+              onclick="location.href='https://bit.ly/sp4capp'"
             >
-              PARTNER
+              AMBASSADOR
             </button>
             <h3 class="text-white-75 font-weight-light mb-5" id="locationsub2">
               Uber HQ | February 29 - March 1, 2020
             </h3>
-            <!--
-            <h3 class="text-white-75 font-weight-light mb-5" id="locationsub3">
-              1455 Market Street, San Francisco, California 94103
-            </h3>
-         -->
-            
             <!--             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about"
               >ATTENDEE</a
             >
@@ -146,7 +153,7 @@
         </div>
       </div>
     </header>
-    
+
     <!--     COUNTER OF IMPACT -->
     <center>
       <section id="#about">
@@ -170,8 +177,9 @@
         </div>
       </section>
     </center>
-
-     <center>
+    
+    
+   <center>
       <section id="aboutpading">
         <div class="w3-row ">
           <div class="w3-container w3-half w3">
@@ -203,7 +211,7 @@
               ><button
                 align="left"
                 class="button"
-                onclick="location.href='photos.html'"
+                onclick="https://shivaligulati.github.io/superpositioniv/photos.html'"
               >
                 VIEW PAST PHOTOS
               </button></left
@@ -212,37 +220,41 @@
           <div class="w3-container w3-half">
             <img
               id="introgifs"
-              src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fspgif.gif?v=1575865912047"
-            />
+              src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FWebp.net-gifmaker%20(11).gif?v=1579421044315"
+            /> 
           </div>
         </div>
       </section>
     </center>
-  
+
 
     <!-- Masthead -->
-    <section><header class="masthead2">
-      <div class="container h-100">
-        <div
-          class="row h-100 align-items-center justify-content-center text-center"
-        >
-          <div class="col-lg-10 align-self-end">
-            <h1 class="text-lowercase text-white">
-              our fourth iteration
-            </h1>
-          </div>
-          <div class="col-lg-8 align-self-baseline">
-            <h3 class="text-white-75 font-weight-light mb-5">
-              Join hundreds of students of all backgrounds and experience levels at the Bay Area’s largest 24 hour all-female hackathon.
-            </h3>
+    <section>
+      <header class="masthead2">
+        <div class="container h-100">
+          <div
+            class="row h-100 align-items-center justify-content-center text-center"
+          >
+            <div class="col-lg-10 align-self-end">
+              <h1 class="text-lowercase text-white">
+                our fourth iteration
+              </h1>
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+              <h3 class="text-white-75 font-weight-light mb-5">
+                Join hundreds of students at the Bay Area’s largest 24 hour
+                all-female hackathon, regardless of your background or
+                experience level.
+              </h3>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
-    <br />
-      <br /></section>
+      </header>
+    </section>
+    
+    
 
-      <center>
+    <center>
       <section id="testimonials">
         <div class="testimonials" id="pinkbg">
           <center>
@@ -250,16 +262,16 @@
             <p class="sectionheader">Testimonials</p>
           </center>
           <h4 class="sponsorssubtitle">
-            Since our start in October 2016, we’ve worked to create an <b>inclusive</b> environment of students, mentors, workshops, and opportunities <i><b>— with something for everyone.</b></i>
+            Since our start in October 2016, we’ve worked to create an
+            <b>inclusive</b> environment of students, mentors, workshops, and
+            opportunities <i><b>— with some for everyone.</b></i>
           </h4>
           <br />
           <br />
           <center>
             <div class="container">
               <div class="card-deck">
-                
-                
-                <div class="card my-3" id = "myBtn">
+                <div class="card my-3" id="myBtn">
                   <img
                     src="https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2FCopy%20of%20_DSC8943.jpg?v=1574047853404"
                     class="card-img-top"
@@ -267,7 +279,7 @@
                   />
                   <div class="card-body">
                     <br />
-                    <h5 class="card-title">Michelle Zhang</h5>
+                    <h5 class="card-title">MICHELLE ZHANG</h5>
                     <h6>Johns Hopkins '22</h6>
                     <br />
                     <p class="card-text" align="left">
@@ -279,44 +291,45 @@
                     </p>
                   </div>
                 </div>
-                
-                
-                  <div id="myModal" class="modal">
+
+                <div id="myModal" class="modal">
                   <!-- Modal content -->
                   <div class="modal-content2">
                     <span class="close">&times;</span>
-                      <div class="rowmodal">
-                        <div class="columnmodal leftmodal">
-                          <img
-                    src="https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2FCopy%20of%20_DSC8943.jpg?v=1574047853404"
-                    class="card-img-top"
-                    id="sizemodal"
-                  />
-                        </div>
+                    <div class="rowmodal">
+                      <div class="columnmodal leftmodal">
+                        <img
+                          src="https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2FCopy%20of%20_DSC8943.jpg?v=1574047853404"
+                          class="card-img-top"
+                          id="sizemodal"
+                        />
+                      </div>
                       <div class="columnmodal rightmodal">
-                        <h5 align = "left" class = "modaltitles">Michelle Zhang</h5>
-                    <h6 class = "modalsubtitles" align = "left">Johns Hopkins '22</h6>
-                    <br />
-                    <p class = "modalquotes" align="left">
-                      "I went in, dead set on being a pre-med major, only
-                      wanting to try out CS just for fun… after 24 hours, I had
-                      attained an unimaginable amount of knowledge. In the end,
-                      I’m so grateful for this experience and the opportunity to
-                      have discovered a new seed of passion."
-                    </p>
-                        </div>
+                        <h5 align="left" class="modaltitles">MICHELLE ZHANG</h5>
+                        <h6 class="modalsubtitles" align="left">
+                          Johns Hopkins '22
+                        </h6>
+                        <br />
+                        <p class="modalquotes" align="left">
+                          "I went in, dead set on being a pre-med major, only
+                          wanting to try out CS just for fun… after 24 hours, I
+                          had attained an unimaginable amount of knowledge. In
+                          the end, I’m so grateful for this experience and the
+                          opportunity to have discovered a new seed of passion."
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
-                
-                <div class="card my-3" id = "myBtn2">
+
+                <div class="card my-3" id="myBtn2">
                   <img
                     src="https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2FCopy%20of%20_DSC8958.jpg?v=1574047868342"
                     class="card-img-top"
                   />
                   <div class="card-body">
                     <br />
-                    <h5 class="card-title">Neha Vinjapuri</h5>
+                    <h5 class="card-title">NEHA VINJAPURI</h5>
                     <h6>Best Overall Hack At Superposition III</h6>
                     <br />
                     <p class="card-text" align="left">
@@ -327,81 +340,90 @@
                     </p>
                   </div>
                 </div>
-                
-                 <div id="myModal2" class="modal2">
+
+                <div id="myModal2" class="modal2">
                   <!-- Modal content -->
                   <div class="modal-content2">
                     <span class="close2">&times;</span>
-                      <div class="rowmodal">
-                        <div class="columnmodal leftmodal">
-                          <img
-                    src="https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2FCopy%20of%20_DSC8958.jpg?v=1574047868342"
-                    class="card-img-top"
-                    id="sizemodal"
-                  />
-                        </div>
+                    <div class="rowmodal">
+                      <div class="columnmodal leftmodal">
+                        <img
+                          src="https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2FCopy%20of%20_DSC8958.jpg?v=1574047868342"
+                          class="card-img-top"
+                          id="sizemodal"
+                        />
+                      </div>
                       <div class="columnmodal rightmodal">
-                        <h5 align = "left" class = "modaltitles">Neha Vinjapuri</h5>
-                    <h6 class = "modalsubtitles" align = "left">Best Overall Hack At Superposition III</h6>
-                    <br />
-                    <p class = "modalquotes" align="left">
-                      "Superposition allowed me to discover different tech
-                      career paths, meet other girls with similar interests, and
-                      be mentored by people in the industry in a comfortable and
-                      inclusive environment."
-                    </p>
-                        </div>
+                        <h5 align="left" class="modaltitles">NEHA VINJAPURI</h5>
+                        <h6 class="modalsubtitles" align="left">
+                          Best Overall Hack At Superposition III
+                        </h6>
+                        <br />
+                        <p class="modalquotes" align="left">
+                          "Superposition allowed me to discover different tech
+                          career paths, meet other girls with similar interests,
+                          and be mentored by people in the industry in a
+                          comfortable and inclusive environment."
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
-                
-  
 
-                <div class="card my-3" id = "myBtn3">
+                <div class="card my-3" id="myBtn3">
                   <img
-                    src="https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2Fsuperpos1-315.JPG?v=1575175661390"
+                    src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FCopy%20of%20_DSC8942%20(2).jpg?v=1577954395726"
                     class="card-img-top"
                   />
                   <div class="card-body">
                     <br />
-                    <h5 class="card-title">Siddhi Kabadi</h5>
-                    <h6>Attendee at Superposition III</h6>
+                    <h5 class="card-title">SIDDHI KABADI</h5>
+                    <h6>Attended Superposition III</h6>
                     <br />
                     <p class="card-text" align="left">
-                       "Superposition was memorable to me because it helped me expand my knowledge about computer science in a very safe and friendly environment. 
-                      My experience at Superposition inspired me to take APCS at my school to continue studying and learning about computer science!"
+                      "Superposition was memorable to me because it helped me
+                      expand my knowledge about computer science in a very safe
+                      and friendly environment. My experience at Superposition
+                      inspired me to take APCS at my school to continue studying
+                      and learning about computer science!"
                     </p>
                   </div>
                 </div>
-                
+
                 <div id="myModal3" class="modal3">
                   <!-- Modal content -->
                   <div class="modal-content3">
                     <span class="close3">&times;</span>
-                      <div class="rowmodal">
-                        <div class="columnmodal leftmodal">
-                          <img
-                    src="https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2Fsuperpos1-315.JPG?v=1575175661390"
-                    class="card-img-top"
-                    id="sizemodal"
-                  />
-                        </div>
+                    <div class="rowmodal">
+                      <div class="columnmodal leftmodal">
+                        <img
+                          src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FCopy%20of%20_DSC8942%20(2).jpg?v=1577954395726"
+                          class="card-img-top"
+                          id="sizemodal"
+                        />
+                      </div>
                       <div class="columnmodal rightmodal">
-                        <h5 align = "left" class = "modaltitles">Siddhi Kabadi</h5>
-                    <h6 class = "modalsubtitles" align = "left">Attendee at Superposition III</h6>
-                    <br />
-                    <p class = "modalquotes" align="left">
-                      "Superposition was memorable to me because it helped me expand my knowledge about computer science in a very safe and friendly environment. 
-                      My experience at Superposition inspired me to take APCS at my school to continue studying and learning about computer science!"
-                    </p>
-                        </div>
+                        <h5 align="left" class="modaltitles">SIDDHI KABADI</h5>
+                        <h6 class="modalsubtitles" align="left">
+                          Attended Superposition III
+                        </h6>
+                        <br />
+                        <p class="modalquotes" align="left">
+                          "Superposition was memorable to me because it helped
+                          me expand my knowledge about computer science in a
+                          very safe and friendly environment. My experience at
+                          Superposition inspired me to take APCS at my school to
+                          continue studying and learning about computer
+                          science!"
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
-                
               </div>
             </div>
           </center>
+          <br />
           <br />
           <br />
           <br />
@@ -410,9 +432,7 @@
       </section>
     </center>
 
-   
-
-    <!--  FAQS -->
+   <!--  FAQS -->
     <section>
       <div class="faqcolors">
         <center>
@@ -461,7 +481,7 @@
                   <p align="left" class="faqstext">
                    All female-identifying, trans or non-binary high school and college students are 
                   welcome to come as an attendee. Although we do NOT accept males as attendees, 
-                  we wholeheartedly welcome all genders to volunteer as a <a href="http://bit.ly/sp4_volunteer">
+                  we wholeheartedly welcome all genders to volunteer as a <a href=https://docs.google.com/forms/d/e/1FAIpQLSfMpukAsQdjEL-1Ha8P2Q-Lao-7Tx8DC3AzBKZAFlJeKlYPJg/viewform>
                   mentor, workshop leader, judge </a> or Campus Ambassador!
                   </p>
                 </div>
@@ -480,7 +500,7 @@
                 <div class="panel">
                   <p align="left" class="faqstext">
                     Yes! We have separate travel reimbursement programs for high school and college students. Find more info
-                    <a href="http://bit.ly/sp4_grant"> here. </a>
+                    <a href="bit.ly/sp4_grant"> here. </a>
                   </p>
                 </div>
               </div>
@@ -505,7 +525,7 @@
                   more about how you can help support Superposition, please
                   email us at <a href="mailto:info@superposition.tech">info@superposition.tech</a>. 
                   Sign up to be a mentor, judge, or women in tech panelist
-                      <a href="https://bit.ly//sp4_volunteer">here</a>.
+                      <a href="https://forms.gle/YwRCw3crsU3DbpCE6">here</a>.
                   </p>
                 </div>
 
@@ -534,8 +554,9 @@
                 </button>
                 <div class="panel">
                   <p align="left" class="faqstext">
-                    You can apply at
-                      <a href="https://bit.ly/sp4_app">here</a>! Applications will close February 16th at 11:59 PST.
+                    Complete our interest form
+                      <a href="https://forms.gle/MAYYZEFoaMC2BaVS8">here</a> and we'll notify
+                  you as soon as the application is released.
                   </p>
                 </div>
                 <button class="accordion">
@@ -559,8 +580,6 @@
        <br />
     </section>
     
-
-  
     <!-- Slideshow container -->
      <center>
       <section id="slider">
@@ -586,473 +605,544 @@
       </section>
     </center>
     
-    <!-- SCHEDULE -->
-    <section><center><p class="sectionheader" id="schedule">Schedule</p></center>
-    <br />
-    <div class="schedule">
-      <div class="row3">
-        <div class="column3">
-          <h2 class="schedtitles">Saturday</h2>
-          <p class="scheddescriptions"><b>10:00 AM </b> Check In</p>
-          <p class="scheddescriptions"><b>10:45 AM </b> Opening Ceremony</p>
-          <p class="scheddescriptions"><b>11:15 AM </b> Form Teams</p>
-          <p class="scheddescriptions">
-            <b>12:00 PM </b> Lunch + hacking begins!
-          </p>
-<!--           <p class="scheddescriptions"><b>5:00 PM </b> Python Workshop</p> -->
-          <p class="scheddescriptions"><b>7:00 PM </b> Dinner + Women in Tech Panel </p>
-<!--           <p class="scheddescriptions"><b>10:00 PM </b> Karaoke</p> -->
+    <center>
+      <section id = "schedule">
+      <section id="aboutpadding">
+         <br />
+        <br />
+        <br />
+        <br/>
+        <span class="left" onclick="myFunctionSat()">◀</span
+                    ><span class="schedtitles" onclick="myFunction()" id="e0"
+                      >Saturday Schedule</span
+                    ><span class="right" onclick="myFunctionSunday()">▶</span>
+         <br />
+        <br />
+        <br />
+        <br/>
+        <div class="w3-row ">
+          <div class="w3-container w3-half w3">
+            <div class="sat">
+                   <p
+                      class="scheddescriptions"
+                      align="left"
+                      onclick="myFunction1()"
+                      id="e1"
+                    >
+                      10:00 AM Attendee Check-In
+                    </p>
+                    <p
+                      class="scheddescriptions"
+                      align="left"
+                      onclick="myFunction2()"
+                      id="e2"
+                    >
+                      10:45 AM Opening Ceremony
+                    </p>
+                    <p
+                      class="scheddescriptions"
+                      align="left"
+                      onclick="myFunction3()"
+                      id="e3"
+                    >
+                      11:15 AM Team forming
+                    </p>
+                    <p
+                      class="scheddescriptions"
+                      align="left"
+                      onclick="myFunction4()"
+                      id="e4"
+                    >
+                      12:00 PM Attendee Lunch
+                    </p>
+                   <p
+                      class="scheddescriptions"
+                      align="left"
+                      onclick="myFunction6()"
+                      id="e5"
+                    >
+                      12:30 PM - 7:00 PM Workshops
+                    </p>
+                    <p
+                      class="scheddescriptions"
+                      align="left"
+                      onclick="myFunction7()"
+                      id="e6"
+                    >
+                      07:15 PM Attendee Dinner
+                    </p>
+              <p
+                      class="scheddescriptions"
+                      align="left"
+                      onclick="myFunction8()"
+                      id="e7"
+                    >
+                      07:30 Women In Tech Panel
+                    </p>
+                  </div>
+          </div>
+          <div class="w3-container w3-half">
+             <img
+                    src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_3_5652959377.png?v=1579563403899"
+                    id="schedimg"
+                  />
+          </div>
         </div>
-        <div class="column3">
-          <h2 class="schedtitles">Sunday</h2>
-          <p class="scheddescriptions">
-            <b>12:00 AM </b> Midnight activities and snacks!
-          </p>
-<!--           <p class="scheddescriptions"><b>8:00 AM </b> Morning</p> -->
-          <p class="scheddescriptions"><b>8:30 AM </b> Attendee Breakfast</p>
-          <p class="scheddescriptions"><b>9:00 AM </b> Submissions Due</p>
-          <p class="scheddescriptions"><b>9:30 AM </b> Judging Begins</p>
-          <p class="scheddescriptions"><b>11:00 AM </b> Closing Ceremony</p>
-          <p class="scheddescriptions">
-            <b>11:30 AM </b> Superposition IV Ends
-          </p>
-        </div>
-      </div>
-    </div>
-    <br />
-    <br />
-    <br />
-    <br /></section>
-    <!--
-     <center>
-      <section id = "background">
+      </section></section>
+    </center>
+
+
+    <center>
+      <section id="background">
         <div class="w3-row ">
           <div class="w3-container w3-half w3">
             <iframe
-            width="700"
-            height="600"
-            src="https://www.youtube.com/embed/h3ql9y2nVTg"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
+              width="700"
+              height="600"
+              src="https://www.youtube.com/embed/h3ql9y2nVTg"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
           </div>
           <div class="w3-container w3-half">
             <p align="center" class="sectionheader" id="about">
-            Recap
-          </p>
-          <p align="left" class="sectiontext" id="videotext">
-            Since our very first iteration in 2017, Superposition has strived to
-            provide a
-            <b class="emphasis"
-              >safe, welcoming, racially diverse, and supportive</b
-            >
-            space for girls to delve into the realm of computer science. This
-            video recaps Superposition's first iteration in which middle, high
-            school, and college girls in the San Francisco Bay Area of
-            <b class="emphasis">all coding experience levels and backgrounds</b>
-            were challenged to use technology for
-            <b class="emphasis">social good</b>. Superposition has impacted over
-            <b class="emphasis">264 attendees</b> in venues, like VSCO, and
-            continues to create a <b class="emphasis">positive</b> attendee
-            experience.
-          </p>
+              Recap
+            </p>
+
+            <p align="left" class="sectiontext" id="videotext">
+              Since our very first iteration in 2017, Superposition has strived
+              to provide a
+              <b class="emphasis"
+                >safe, welcoming, racially diverse, and supportive</b
+              >
+              space for girls to delve into the realm of computer science. This
+              video recaps Superposition's first iteration in which middle, high
+              school, and college girls in the San Francisco Bay Area of
+              <b class="emphasis"
+                >all coding experience levels and backgrounds</b
+              >
+              were challenged to use technology for
+              <b class="emphasis">social good</b>. Superposition has impacted
+              over <b class="emphasis">264 attendees</b> in venues, like VSCO,
+              and continues to create a
+              <b class="emphasis">positive</b> attendee experience.
+            </p>
           </div>
         </div>
       </section>
     </center>
- -->
+
     <!-- TEAM -->
 
-    <section><center>
-      <div id="begin" class="team">
-        <p class="sectionheader" id="team">Meet Our Team</p>
-        <div class="row2">
-          <div class="column2">
-            <img
-              class="circle"
-              src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FStephanie%20Su.jpg?v=1571125570588"
-            />
-            <h2 class="teamnames">Stephanie Su</h2>
-            <p class="teamdescriptions">Lead Director</p>
-            <a href="https://www.instagram.com/steph.su/" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
-            /></a>
-            <a href="https://www.facebook.com/stephanie.su.9634" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
-            /></a>
-            <a href="mailto: stephanie@superposition.tech" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
-            /></a>
-            <a
-              href="https://www.linkedin.com/in/stephanie-su-527437169/"
-              target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
-            /></a>
-          </div>
-          <div class="column2">
-            <img
-              class="circle"
-              src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(14).png?v=1571125705882"
-            />
-            <h2 class="teamnames">Miha Bhaskaran</h2>
-            <p class="teamdescriptions">Operations Director</p>
-            <a href="https://www.facebook.com/athmihab" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
-            /></a>
-            <a href="mailto:manasi@superposition.tech" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
-            /></a>
-          </div>
-          <div class="column2">
-            <img
-              class="circle"
-              src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FSana%20Bharadwaj.jpg?v=1571119911330"
-            />
-            <h2 class="teamnames">Sana Bharadwaj</h2>
-            <p class="teamdescriptions">Sponsorship Director</p>
-            <a href="https://www.instagram.com/_sana_b/" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
-            /></a>
-            <a href="https://www.facebook.com/sana.bharadwaj.3" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
-            /></a>
-            <a href="mailto: sanab227@gmail.com" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
-            /></a>
-            <a
-              href="https://www.linkedin.com/in/sana-b-3b1677140"
-              target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
-            /></a>
-          </div>
-          <div class="column2">
-            <img
-              class="circle"
-              src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(7).png?v=1571121304034"
-            />
-            <h2 class="teamnames">Shamita Gurusu</h2>
-            <p class="teamdescriptions">Outreach Director</p>
-            <a
-              href="https://www.instagram.com/thedisney_darling/"
-              target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
-            /></a>
-            <a href="shamita@superposition.tech" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
-            /></a>
+    <section>
+      <center>
+        <div id="begin" class="team">
+          <p class="sectionheader" id="team">Meet Our Team</p>
+          <br />
+          <div class="row2">
+            <div class="column2">
+              <img
+                class="circle"
+                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FStephanie%20Su.jpg?v=1571125570588"
+              />
+              <h2 class="teamnames">Stephanie Su</h2>
+              <p class="teamdescriptions">Lead Director</p>
+              <a href="https://www.instagram.com/steph.su/" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+              /></a>
+              <a
+                href="https://www.facebook.com/stephanie.su.9634"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+              /></a>
+              <a href="mailto: stephanie@superposition.tech" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/stephanie-su-527437169/"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+              /></a>
+            </div>
+            <div class="column2">
+              <img
+                class="circle"
+                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(14).png?v=1571125705882"
+              />
+              <h2 class="teamnames">Miha Bhaskaran</h2>
+              <p class="teamdescriptions">Operations Director</p>
+              <a href="https://www.facebook.com/athmihab" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+              /></a>
+              <a href="mailto:manasi@superposition.tech" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+              /></a>
+            </div>
+            <div class="column2">
+              <img
+                class="circle"
+                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FSana%20Bharadwaj.jpg?v=1571119911330"
+              />
+              <h2 class="teamnames">Sana Bharadwaj</h2>
+              <p class="teamdescriptions">Sponsorship Director</p>
+              <a href="https://www.instagram.com/_sana_b/" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+              /></a>
+              <a
+                href="https://www.facebook.com/sana.bharadwaj.3"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+              /></a>
+              <a href="mailto: sanab227@gmail.com" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/sana-b-3b1677140"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+              /></a>
+            </div>
+            <div class="column2">
+              <img
+                class="circle"
+                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(7).png?v=1571121304034"
+              />
+              <h2 class="teamnames">Shamita Gurusu</h2>
+              <p class="teamdescriptions">Outreach Director</p>
+              <a
+                href="https://www.instagram.com/thedisney_darling/"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+              /></a>
+              <a href="shamita@superposition.tech" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+              /></a>
+            </div>
           </div>
         </div>
-      </div>
-    </center>
+      </center>
 
-    <!--     ROW TWO OF TEAM -->
-    <center>
-      <div class="team">
-        <div class="row2">
-          <div class="column2">
-            <img
-              class="circle"
-              src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fshivaliprofile1.jpg?v=1571120021256"
-            />
-            <h2 class="teamnames">Shivali Gulati</h2>
-            <p class="teamdescriptions">Tech Director</p>
-            <a href="https://www.instagram.com/shivali_02/" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
-            /></a>
-            <a href="https://twitter.com/shivig121" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(35).png?v=1570251792580"
-            /></a>
-            <a href="https://www.facebook.com/shivali.gulati.9" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
-            /></a>
-            <a href="mailto: shivali@superposition.tech" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
-            /></a>
-            <a
-              href="https://www.linkedin.com/in/shivali-gulati/"
-              target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
-            /></a>
-          </div>
-          <div class="column2">
-            <img
-              class="circle"
-              src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(6).png?v=1571121298265"
-            />
-            <h2 class="teamnames">Emily Chen</h2>
-            <p class="teamdescriptions">Operations</p>
-            <a href="https://www.instagram.com/e.emilyc/" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
-            /></a>
-            <a
-              href="https://m.facebook.com/profile.php?ref=bookmarks"
-              target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
-            /></a>
-            <a href="mailto:chen.emily20@gmail.com" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
-            /></a>
-            <a
-              href="https://www.linkedin.com/in/emily-chen-962a37178/"
-              target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
-            /></a>
-          </div>
-          <div class="column2">
-            <img
-              class="circle"
-              src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FDiana%20Lim.jpg?v=1571120089475"
-            />
-            <h2 class="teamnames">Diana Lim</h2>
-            <p class="teamdescriptions">Operations</p>
-            <a href="https://www.instagram.com/ddianalim/" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
-            /></a>
-            <a href="https://www.facebook.com/dianalimn" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
-            /></a>
-            <a href="mailto: dianalim1117@gmail.com" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
-            /></a>
-            <a href="https://www.linkedin.com/in/dianadlim/" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
-            /></a>
-          </div>
-          <div class="column2">
-            <img
-              class="circle"
-              src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(11).png?v=1571122618755"
-            />
-            <h2 class="teamnames">Helena Lowe</h2>
-            <p class="teamdescriptions">Sponsorship</p>
-            <a href="https://www.instagram.com/helenarlowe/" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
-            /></a>
-            <a href="https://www.facebook.com/helena.lowe.7739" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
-            /></a>
-            <a href="mailto:helenalowe03@gmail.com" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
-            /></a>
-            <a
-              href="https://www.linkedin.com/in/helena-lowe-a7197b182/"
-              target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
-            /></a>
+      <!--     ROW TWO OF TEAM -->
+      <center>
+        <div class="team">
+          <div class="row2">
+            <div class="column2">
+              <img
+                class="circle"
+                src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FIMG_1043%20(1).jpg?v=1579492272984"
+              />
+              <h2 class="teamnames">Shivali Gulati</h2>
+              <p class="teamdescriptions">Tech Director</p>
+              <a href="https://www.instagram.com/shivali_02/" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+              /></a>
+              <a href="https://twitter.com/shivig121" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(35).png?v=1570251792580"
+              /></a>
+              <a
+                href="https://www.facebook.com/shivali.gulati.9"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+              /></a>
+              <a href="mailto: shivali@superposition.tech" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/shivali-gulati/"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+              /></a>
+            </div>
+            <div class="column2">
+              <img
+                class="circle"
+                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(6).png?v=1571121298265"
+              />
+              <h2 class="teamnames">Emily Chen</h2>
+              <p class="teamdescriptions">Operations</p>
+              <a href="https://www.instagram.com/e.emilyc/" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+              /></a>
+              <a
+                href="https://m.facebook.com/profile.php?ref=bookmarks"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+              /></a>
+              <a href="mailto:chen.emily20@gmail.com" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/emily-chen-962a37178/"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+              /></a>
+            </div>
+            <div class="column2">
+              <img
+                class="circle"
+                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FDiana%20Lim.jpg?v=1571120089475"
+              />
+              <h2 class="teamnames">Diana Lim</h2>
+              <p class="teamdescriptions">Operations</p>
+              <a href="https://www.instagram.com/ddianalim/" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+              /></a>
+              <a href="https://www.facebook.com/dianalimn" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+              /></a>
+              <a href="mailto: dianalim1117@gmail.com" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+              /></a>
+              <a href="https://www.linkedin.com/in/dianadlim/" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+              /></a>
+            </div>
+            <div class="column2">
+              <img
+                class="circle"
+                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(11).png?v=1571122618755"
+              />
+              <h2 class="teamnames">Helena Lowe</h2>
+              <p class="teamdescriptions">Sponsorship</p>
+              <a href="https://www.instagram.com/helenarlowe/" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+              /></a>
+              <a
+                href="https://www.facebook.com/helena.lowe.7739"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+              /></a>
+              <a href="mailto:helenalowe03@gmail.com" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/helena-lowe-a7197b182/"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+              /></a>
+            </div>
           </div>
         </div>
-      </div>
-    </center>
+      </center>
 
-    <!--     ROW THREE OF TEAM -->
-    <center>
-      <div class="team">
-        <div class="row2">
-          <div class="column2">
-            <img
-              class="circle"
-              src="https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2Fm2.PNG?v=1575175744061"
-            />
-            <h2 class="teamnames">Manasi Mishra</h2>
-            <p class="teamdescriptions">Sponsorship</p>
-            <a href="mailto:manasi@superposition.tech" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
-            /></a>
-             <a
-              href="https://www.linkedin.com/in/manasimishra/"
-              target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
-            /></a>
-          </div>
-          <div class="column2">
-            <img
-              class="circle"
-              src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FApoorva%20Chilukuri.jpg?v=1571122381790"
-            />
-            <h2 class="teamnames">Apoorva Chilukuri</h2>
-            <p class="teamdescriptions">Sponsorship</p>
-            <a href="https://www.facebook.com/apoorva.chilukuri" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
-            /></a>
-            <a
-              href="https://www.linkedin.com/in/apoorva-chilukuri-78411b195/"
-              target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
-            /></a>
-          </div>
-          <div class="column2">
-            <img
-              class="circle"
-              src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(9).png?v=1571122329744"
-            />
-            <h2 class="teamnames">Deeya Bodas</h2>
-            <p class="teamdescriptions">Outreach</p>
-            <a href="https://www.instagram.com/deeyabodas/" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
-            /></a>
-            <a href="https://twitter.com/DeeyaBodas" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(35).png?v=1570251792580"
-            /></a>
-            <a href="https://www.facebook.com/deeya.bodas.9" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
-            /></a>
-            <a href="mailto:deeyabodas1@gmail.com" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
-            /></a>
-            <a
-              href="https://www.linkedin.com/in/deeya-bodas-295557190/"
-              target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
-            /></a>
-          </div>
-          <div class="column2">
-            <img
-              class="circle"
-              src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(8).png?v=1571122199750"
-            />
-            <h2 class="teamnames">Romina Parimi</h2>
-            <p class="teamdescriptions">Outreach</p>
-            <a href="instagram.com/bruh.itsromina" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
-            /></a>
-            <a href="mailto:romi.parimi@gmail.com" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
-            /></a>
-            <a href="linkedin.com/in/rominaparimi22" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
-            /></a>
+      <!--     ROW THREE OF TEAM -->
+      <center>
+        <div class="team">
+          <div class="row2">
+            <div class="column2">
+              <img
+                class="circle"
+                src="https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2Fm2.PNG?v=1575175744061"
+              />
+              <h2 class="teamnames">Manasi Mishra</h2>
+              <p class="teamdescriptions">Sponsorship</p>
+              <a href="mailto:manasi@superposition.tech" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/manasimishra/"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+              /></a>
+            </div>
+            <div class="column2">
+              <img
+                class="circle"
+                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FApoorva%20Chilukuri.jpg?v=1571122381790"
+              />
+              <h2 class="teamnames">Apoorva Chilukuri</h2>
+              <p class="teamdescriptions">Sponsorship</p>
+              <a
+                href="https://www.facebook.com/apoorva.chilukuri"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/apoorva-chilukuri-78411b195/"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+              /></a>
+            </div>
+            <div class="column2">
+              <img
+                class="circle"
+                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(9).png?v=1571122329744"
+              />
+              <h2 class="teamnames">Deeya Bodas</h2>
+              <p class="teamdescriptions">Outreach</p>
+              <a href="https://www.instagram.com/deeyabodas/" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+              /></a>
+              <a href="https://twitter.com/DeeyaBodas" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(35).png?v=1570251792580"
+              /></a>
+              <a href="https://www.facebook.com/deeya.bodas.9" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+              /></a>
+              <a href="mailto:deeyabodas1@gmail.com" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/deeya-bodas-295557190/"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+              /></a>
+            </div>
+            <div class="column2">
+              <img
+                class="circle"
+                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(8).png?v=1571122199750"
+              />
+              <h2 class="teamnames">Romina Parimi</h2>
+              <p class="teamdescriptions">Outreach</p>
+              <a href="instagram.com/bruh.itsromina" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+              /></a>
+              <a href="mailto:romi.parimi@gmail.com" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+              /></a>
+              <a href="linkedin.com/in/rominaparimi22" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+              /></a>
+            </div>
           </div>
         </div>
-      </div>
-    </center>
+      </center>
 
-    <!--     ROW FOUR OF TEAM -->
-    <center>
-      <div class="team">
-        <div class="row2">
-          <div class="column2">
-            <img
-              class="circle"
-              src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(12).png?v=1571123331352"
-            />
-            <h2 class="teamnames">Michelle Chow</h2>
-            <p class="teamdescriptions">Outreach</p>
-            <a href="https://instagram.com/michelllechow" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
-            /></a>
-            <a href="https://twitter.com/michellechowdc" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(35).png?v=1570251792580"
-            /></a>
-            <a href="https://www.facebook.com/michelle.chow.923" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
-            /></a>
-            <a href="mailto: michelle@superposition.tech" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
-            /></a>
-            <a href="http://linkedin.com/in/michellelychow" target="_blank"
-              ><img
-                class="teamsocials"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
-            /></a>
+      <!--     ROW FOUR OF TEAM -->
+      <center>
+        <div class="team">
+          <div class="row2">
+            <div class="column2">
+              <img
+                class="circle"
+                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(12).png?v=1571123331352"
+              />
+              <h2 class="teamnames">Michelle Chow</h2>
+              <p class="teamdescriptions">Outreach</p>
+              <a href="https://instagram.com/michelllechow" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+              /></a>
+              <a href="https://twitter.com/michellechowdc" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(35).png?v=1570251792580"
+              /></a>
+              <a
+                href="https://www.facebook.com/michelle.chow.923"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+              /></a>
+              <a href="mailto: michelle@superposition.tech" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+              /></a>
+              <a href="http://linkedin.com/in/michellelychow" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(15).png?v=1571162456322"
+              /></a>
+            </div>
           </div>
         </div>
-      </div>
-    </center>
-    <br/>
-    <br/>
+      </center>
+      <br />
+      <br />
     </section>
-  
-     <!-- SPONSORS -->
+    <br />
+    <br />
+    <br />
+    
+     
+    
+   <!-- SPONSORS -->
       <section>
         <center>
           <div class="sponsorhead">
@@ -1082,7 +1172,7 @@
                     class="sponsorsimages"
                     height="175vw"
                     width="175vw"
-                    src="https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2Fvoiceflowlogo.png?v=1574054110203"
+                    src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FRStudio.png?v=1579580771370"
                   />
                 </div>
                 <div class="column2">
@@ -1233,54 +1323,114 @@
                 src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fgmg.png?v=1577955142271"
               />
             </div>
-<!--             <div class="column2">
+            <div class="column2">
               <img
                 class="sponsorsimages"
-                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fsp3.png?v=1571182887318"
+                src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FSketch.png?v=1579580766962"
               />
-            </div> -->
-          </div>
+            </div>
+                      </div>
         </center> 
           </div>
         </center>
       </section>
     
-   <section>
-    <center><footer class="page-footer">
-      <br/>
+    <section>
+      <center>
+        <footer class="page-footer">
+          <br />
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text" style="text-align:center;">Social Media</h5>
+                <h5 class="white-text" style="text-align:center;">
+                  Social Media
+                </h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/superpositionfc/?hl=en" target="_blank" style="text-align:center;">Instagram</a></li>
-                  <li><a class="grey-text text-lighten-3" href="https://twitter.com/superpositionfc" target="_blank">Twitter</a></li>
-                  <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/company/superpositionfc/about/" target="_blank">Linkedln</a></li>
-                  <li><a class="grey-text text-lighten-3" href = "mailto: info@superposition.tech" target="_blank">Email</a></li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://www.instagram.com/superpositionfc/?hl=en"
+                      target="_blank"
+                      style="text-align:center;"
+                      >Instagram</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://twitter.com/superpositionfc"
+                      target="_blank"
+                      >Twitter</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://www.linkedin.com/company/superpositionfc/about/"
+                      target="_blank"
+                      >Linkedln</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="mailto: info@superposition.tech"
+                      target="_blank"
+                      >Email</a
+                    >
+                  </li>
                 </ul>
               </div>
               <div class="col l6 s12">
-                <a href = "#top"><center><img id = "logofooter" src = "https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fspppppppppppp.png?v=1575362249071"></center></a>
+                <a href="#top"
+                  ><center>
+                    <img
+                      id="logofooter"
+                      src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fspppppppppppp.png?v=1575362249071"
+                    /></center
+                ></a>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Past Sites</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="https://superpositionfc.github.io/website3.0/" target="_blank">2019</a></li>
-                  <li><a class="grey-text text-lighten-3" href="https://superpositionfc.github.io/website2.0/" target="_blank">2018</a></li>
-                  <li><a class="grey-text text-lighten-3" href=" https://superpositionfc.github.io/website/" target="_blank">2017</a></li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://superpositionfc.github.io/website2.0/"
+                      target="_blank"
+                      >2019</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://superpositionfc.github.io/website2.0/"
+                      target="_blank"
+                      >2018</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href=" https://superpositionfc.github.io/website/"
+                      target="_blank"
+                      >2017</a
+                    >
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
-          <br/>
+          <br />
           <div class="footer-copyright">
             <div class="container5">
-                      Copyright © 2019-2020 Superposition IV. All rights reserved.
+              Copyright © 2019-2020 Superposition IV. All rights reserved.
             </div>
           </div>
-      </footer></center></section>
-   
-  
+        </footer>
+      </center>
+    </section>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -1292,8 +1442,9 @@
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
     <script src="script.js"></script>
-    
-    <script src="jquery.js"></script> 
+
+    <script src="jquery.js"></script>
     <script src="fadein.js"></script>
+     </div>
   </body>
 </html>
