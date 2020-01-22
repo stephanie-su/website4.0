@@ -292,7 +292,6 @@ function myFunctionSunday() {
   document.getElementById("e5").innerHTML = "12:00 PM Hackathon Ends";
   document.getElementById("e6").style.display = "none";
   document.getElementById("e7").style.display = "none";
-
 }
 
 var myVar;
