@@ -162,7 +162,7 @@ a {
 }
 a:hover {
   color: #F794B8;
-/*   text-decoration: underline; */
+  /*   text-decoration: underline; */
 }
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -8796,7 +8796,7 @@ html {
 }
 @media (min-width: 992px) {
   #mainNav {
-/*     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
+    /*     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
     background-color: transparent;
   }
   #mainNav .navbar-brand {
@@ -8818,7 +8818,7 @@ html {
   #mainNav.navbar-scrolled {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #fff;
-/*     opacity: 0.9; */
+    /*     opacity: 0.9; */
   }
   #mainNav.navbar-scrolled .navbar-brand {
     color: #8b2455;
@@ -9047,7 +9047,6 @@ header.masthead4 h1 {
   }
 }
 
-
 header.masthead5 {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
@@ -9131,4 +9130,3 @@ header.masthead6 h1 {
     font-family: "playlistscript";
   }
 }
-
