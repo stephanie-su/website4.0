@@ -1697,9 +1697,20 @@ span{
     padding: 1%;
 }
 
+#partners {
+  margin-top: -4%;
+  margin-bottom: -3%;
+}
 
+#partnertitle{
+    margin-bottom: 7%;
+}
 
-
+#biglogo{
+   max-width: 50% !important;
+    width: 50% !important;
+    height: 50% !important;
+}
 
 /*!
  * Start Bootstrap - Creative v5.1.8 (https://startbootstrap.com/template-overviews/creative)
