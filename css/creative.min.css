@@ -14,7 +14,7 @@ html {
   background-repeat: none;
   z-index: 0;
 /*   background: #F5F5F5; */
-   background: linear-gradient(#ffedfd, #ffffff, #ffedfd); 
+   background: linear-gradient(#ffebf2, #fff5f8, #ffebf2); 
 /*   background: linear-gradient(#ffedfd 0%, #e2f5ff 75%); */
   opacity: 1;
 }
@@ -471,7 +471,7 @@ a {
 }
 .teamnames {
   font: "Nanum Gothic";
-  font-weight: normal;
+  font-weight: bold;
   margin-top: 5%;
   color: #000;
   
