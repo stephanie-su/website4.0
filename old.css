@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .container5 {
   padding: 1%;
 }
@@ -471,7 +472,7 @@ a {
 }
 .teamnames {
   font-family: "Nanum Gothic";
-  font-weight: bold;
+  font-weight: lighter;
   margin-top: 5%;
   color: #000;
   
@@ -1344,6 +1345,7 @@ th {
 
 #background {
     background-color: rgba(255, 194, 211, 0.5);
+  margin: 0;
 }
 
 
@@ -1459,14 +1461,28 @@ input:checked + label + .slide {
       background-image: url("https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2Fsuperpos2-59%20(1).JPG?v=1574057773960");
 }
 .bg4{
-      background-image: url("https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2FCopy%20of%20_DSC8971.jpg?v=1574058317996");
+      background-image: url("https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2F%5BADD%5DCopy%20of%20_DSC8970.jpg?v=1579840642373");
 }
 .bg5{
       background-image: url("https://cdn.glitch.com/ca1dae3b-1ed2-4505-b2ff-5b9d1cf0186d%2FCopy%20of%20_DSC9188%20(1).jpg?v=1578214012345");
 }
 
-
-
+.bg6{
+      background-image: url("https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2F%5BADD%5DCopy%20of%20_DSC9061.jpg?v=1579840613202");
+}
+.bg7{
+      background-image: url("https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2F%5BADD%5DCopy%20of%20_DSC9014.jpg?v=1579840644218");
+}
+.bg8{
+      background-image: url("https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2F%5BADD%5DCopy%20of%20_DSC8936.jpg?v=1579840651579");
+}
+.bg9{
+      background-image: url("https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2F%5BADD%5DCopy%20of%20_DSC8987.jpg?v=1579840660500");
+}
+ 
+#testimonialsub{
+  margin: 3%;
+}
 
 
 .about-container {
@@ -1703,6 +1719,7 @@ span{
 }
 
 #partnertitle{
+  margin-top: -2%;
     margin-bottom: 7%;
 }
 
@@ -10844,5 +10861,4 @@ header.masthead6 h1 {
     font-family: "playlistscript";
   }
 }
-
 
