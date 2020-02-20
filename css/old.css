@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
 }
-
 .container5 {
   padding: 1%;
 }
@@ -471,8 +471,8 @@ a {
   margin: 1%;
 }
 .teamnames {
-  font-family: "Nanum Gothic";
-  font-weight: lighter;
+  font: "Nanum Gothic";
+  font-weight: bold;
   margin-top: 5%;
   color: #000;
   
@@ -569,7 +569,6 @@ a {
   transform: scale(1.05);
 }
 .sponsorssubtitle {
-  font-family: "Nanum Gothic";
   font-size: 150%;
   margin-top: 2%;
   margin-bottom: 1%;
@@ -1034,19 +1033,16 @@ transform: translate(0, 0);
 }
 
 #locationsub {
-   font-family: "Nanum Gothic";
     letter-spacing: 0.9px;
    font-size: 150%;
 }
 
 #locationsub2 {
-font-family: "Nanum Gothic";
-  letter-spacing: 1.2px;
+    letter-spacing: 1.2px;
   font-size: 180%;
 }
 
 #locationsub3 {
-font-family: "Nanum Gothic";
     letter-spacing: 1.2px;
     align: left;
 }
@@ -1345,7 +1341,6 @@ th {
 
 #background {
     background-color: rgba(255, 194, 211, 0.5);
-  margin: 0;
 }
 
 
@@ -1461,28 +1456,14 @@ input:checked + label + .slide {
       background-image: url("https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2Fsuperpos2-59%20(1).JPG?v=1574057773960");
 }
 .bg4{
-      background-image: url("https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2F%5BADD%5DCopy%20of%20_DSC8970.jpg?v=1579840642373");
+      background-image: url("https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2FCopy%20of%20_DSC8971.jpg?v=1574058317996");
 }
 .bg5{
       background-image: url("https://cdn.glitch.com/ca1dae3b-1ed2-4505-b2ff-5b9d1cf0186d%2FCopy%20of%20_DSC9188%20(1).jpg?v=1578214012345");
 }
 
-.bg6{
-      background-image: url("https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2F%5BADD%5DCopy%20of%20_DSC9061.jpg?v=1579840613202");
-}
-.bg7{
-      background-image: url("https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2F%5BADD%5DCopy%20of%20_DSC9014.jpg?v=1579840644218");
-}
-.bg8{
-      background-image: url("https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2F%5BADD%5DCopy%20of%20_DSC8936.jpg?v=1579840651579");
-}
-.bg9{
-      background-image: url("https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2F%5BADD%5DCopy%20of%20_DSC8987.jpg?v=1579840660500");
-}
- 
-#testimonialsub{
-  margin: 3%;
-}
+
+
 
 
 .about-container {
@@ -1713,21 +1694,9 @@ span{
     padding: 1%;
 }
 
-#partners {
-  margin-top: -4%;
-  margin-bottom: -3%;
-}
 
-#partnertitle{
-  margin-top: -2%;
-    margin-bottom: 7%;
-}
 
-#biglogo{
-   max-width: 50% !important;
-    width: 50% !important;
-    height: 50% !important;
-}
+
 
 /*!
  * Start Bootstrap - Creative v5.1.8 (https://startbootstrap.com/template-overviews/creative)
@@ -10568,6 +10537,11 @@ a {
   color: #8b2455;
   background: 0 0 !important;
 }
+
+#home2{
+  display: none;
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
@@ -10604,11 +10578,64 @@ header.masthead h1 {
   }
 }
 @media (max-width: 480px) {
+  header.masthead {
+    height: 5rem;
+    min-height: 5rem;
+    padding-top: 5rem - 72px;
+    padding-bottom: 0; 
+  }
   header.masthead h1 {
-    font-size: 6.5rem;
+    font-size: 4rem;
     font-family: "playlistscript";
   }
+  #home{
+    display: none;
+  }
+  #locationsub{
+    display: none;
+  }
+  #home2{
+  display: block;
+    background-color: #f794b8;
+  border: none;
+  color: black;
+  padding: 15px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: -1%;
+/*   margin: 20px 5px; */
+  cursor: pointer;
+  opacity: .9;
+  border-radius: 5px;
+  transform: translate(0, -50%);
+  }
+  #pinkbg {
+    padding: 4%;
+  }
+  .expectitles2, #value {
+    font-weight: bold;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+  .sectionheader{
+    margin-bottom: 10%;
+    font-family: "playlistscript";
+  }
+  #buttonmobile{
+    margin-top: 15%;
+  }
+  .sponsorhead{
+    padding: 7%;
+  }
+  .sponsorssubtitle{
+    padding: 5%;
+  }
 }
+
+
+
+
 #portfolio .container-fluid {
   max-width: 1920px;
 }
@@ -10862,3 +10889,7 @@ header.masthead6 h1 {
   }
 }
 
+
+.teamnames{
+  font-weight: lighter;
+}
