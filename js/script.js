@@ -296,7 +296,7 @@ function myFunctionSunday() {
 
 var myVar;
 function myFunction1000() {
-  myVar = setTimeout(showPage, 1000);
+  myVar = setTimeout(showPage, 800);
 }
 
 function showPage() {
